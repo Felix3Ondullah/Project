@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+}
+
+*::after {
+margin:0;
+padding: 0;
+box-sizing: inherit;
+
+}
+
+*::before{
+  margin:0;
+padding: 0;
+box-sizing: inherit;
+
+}
+
+.header{
+  background-image: url(../project/assets/disk.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  color: yellow;
+  
+
+}
+
+body {
+  
+}
+
+.container {
+  margin: 0 auto;
+
+  
+} 
+
+::placeholder {
+  color: gold;
+  font-style: italic;
+  font-size: larger;
+}
+
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+} 
+
+
+#lyrics-search {
+  text-align: center;
+  align-items: center;
+  margin:  20px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  position: relative;
+  
+}
+
+form {
+  margin: 0 auto;
+  padding: 15px;
+
+  
+}
+.btn{
+  background-color: gold;
+  border: none;
+  color: black;
+  padding: 7px ;
+  display: inline-block;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+
+.btn:hover{
+  background-color: black;
+  color: yellow;
+}
+
+#lyricSearch {
+  background-color: transparent;
+  color: darkgrey;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 60%;
+  margin: 0 auto;
+  padding-right: 2rem;
+  font-size: 17px;
+  font-family:sans-serif;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: black;
+  border-bottom:1px solid black;
+}
+
+
+
+.lyrics {
+  width: 70%;
+  list-style: none;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.lyrics li {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid  gold;
+}
+
+.lyrics li span {
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  
+  
+}
+
+.lyrics li span:hover {
+  background-color: yellow;
+}
+
+
+
+#lyrics-display {
+  color: white;
+  font-size: 1.4rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+#lyricsHead {
+  color: white;}
+
